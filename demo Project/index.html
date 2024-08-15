@@ -39,15 +39,13 @@
             <div class="test-item">
                 <h3>Full-Length Practice Test</h3>
                 <p>Take a timed practice test to simulate the SAT.</p>
-                <a href="https://satsuite.collegeboard.org/practice/practice-tests" target = blank>Start Test</a>
+                <a href="https://www.legalbluebook.com/login" target = blank>Start Test</a>
             </div>
             <div class="test-item">
-                <h3>Math Quiz</h3>
-                <p>Practice SAT Math questions.</p>
+            <h3>Diagnostic test</h3>
+                <p>Assess your skill level by taking this 10 minute quiz. We will tell you the next steps.</p>
                 <a href="https://www.kaptest.com/sat/free/sat-pop-quiz?srsltid=AfmBOorKzGAca_93ty05cFv8UkrWoiGlH1DPmMR2AwS8alvDxjAPj20j" target = blank>Start Quiz</a>
-                <iframe src="https://www.4tests.com/sat" width="200" height="200">
-                </iframe>
-            </div>
+               
         </section>
 
         <section id="study-guides">
@@ -68,7 +66,7 @@
             <h2 id="tdesign3">Progress Tracking</h2>
             <div class="tracker-item">
                 <div class="progress">
-                    <div class="progress-bar" style="width: 40%;">40%</div>
+                    <div class="progress-bar" style="width: 42%;">42%</div>
                 </div>
                 <h3>Score Tracker</h3>
                 <p>Track your scores over time and see your improvement.</p>
@@ -94,6 +92,24 @@
         <p>&copy; 2024 SAT Prep Hub. All Rights Reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+  <!-- Chat Button -->
+  <div id="chat-btn" class="chat-button">
+    <i class="fas fa-comments"></i>
+</div>
+
+<!-- Chat Window -->
+<div id="chat-window" class="chat-window hidden">
+    <div id="chat-header">
+        <h3>Live Chat</h3>
+        <button id="close-chat">X</button>
+    </div>
+    <div id="all-messages"></div>
+    <input type="text" id="username" placeholder="Your Name">
+    <input type="text" id="message" placeholder="Type a message">
+    <button id="send-btn">Send</button>
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
